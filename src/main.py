@@ -177,7 +177,7 @@ async def help_command(interaction: discord.Integration):
 	**/register** : IDを登録させることができます。複数登録が可能です。
 	**/stats**    : 登録したアカウントの情報を表示させます。アカウント選択メニューがでます。
 	**/rm**       : アカウントの登録解除ができます。アカウント選択メニューがでます。
-	**/cc {code}  : クロスヘアの画像を生成します。"""
+	**/cc {code}**: クロスヘアの画像を生成します。"""
 	await interaction.response.send_message(text, ephemeral=True)
 
 client.run(token)
