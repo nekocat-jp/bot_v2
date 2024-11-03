@@ -1,0 +1,5 @@
+**/__pycache__/**
+*.db
+src/settings/config.txt
+src/assets/xhair.png
+src/assets/result.png
